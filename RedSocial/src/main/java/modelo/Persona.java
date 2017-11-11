@@ -7,6 +7,13 @@ import static org.apache.commons.codec.binary.Base64.decodeBase64;
 import static org.apache.commons.codec.binary.Base64.encodeBase64;
 import java.security.SecureRandom;
 
+/**
+ * Clase encargada de materializar al usuario y sus respectivos datos.
+ *
+ *
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 public class Persona {
 	private String nombre, apellidos, username, email, password, direccion, telefono, foto, original, rol;
 	

@@ -20,6 +20,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+/**
+ * Servlet encargado del menu.
+ *
+ * @since 1
+ * @version 1.1 Changes done
+ */
 public class MenuController {
 private static final Logger logger = LoggerFactory.getLogger(RegisterController.class);
 @RequestMapping("modificarUsuario")

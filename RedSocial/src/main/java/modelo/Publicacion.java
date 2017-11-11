@@ -6,6 +6,13 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Locale;
 
+/**
+ * Clase encargada de materializar las publicaciones y sus respectivos datos.
+ *
+ *
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 public class Publicacion {
 	String mensaje, compartirCon, username;
 	LinkedList<String> adjuntos;

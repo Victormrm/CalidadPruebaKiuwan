@@ -1,5 +1,11 @@
 package modelo;
-
+/**
+ * Clase encargada de realizar las transacciones con la base de datos.
+ *
+ * 
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 public class DAOPersona {
 	DataBase db;
 	public DAOPersona() {

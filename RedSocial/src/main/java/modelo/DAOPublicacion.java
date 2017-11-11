@@ -2,6 +2,13 @@ package modelo;
 
 import java.util.LinkedList;
 
+/**
+ * Clase encargada de las operaciones de publicacion con la base de datos.
+ *
+ *
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 public class DAOPublicacion {
 	DataBase db;
 	public DAOPublicacion() {

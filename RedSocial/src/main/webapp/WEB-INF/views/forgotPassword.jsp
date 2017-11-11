@@ -18,6 +18,7 @@
     height: 36px;
     -moz-user-select: none;
     -webkit-user-select: none;
+    user-select: none;
     cursor: default;
 }
 

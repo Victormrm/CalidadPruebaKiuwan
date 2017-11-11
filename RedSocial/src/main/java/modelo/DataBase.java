@@ -12,6 +12,14 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
+/**
+ * Clase encargada de establecer la conexion con la base de datos y definir las operaciones llamadas 
+ * en las clases DAO.
+ *
+ * 
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 public class DataBase {
 	MongoClientURI uri;
 	MongoClient client;

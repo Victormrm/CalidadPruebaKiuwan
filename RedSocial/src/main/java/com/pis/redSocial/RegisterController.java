@@ -20,6 +20,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+/**
+ * Servlet encargado de controlar los registros.
+ *
+ *
+ * @since 1.0
+ * @version 1.1 Changes done
+ */
 @Controller
 public class RegisterController {
 private static final Logger logger = LoggerFactory.getLogger(RegisterController.class);
